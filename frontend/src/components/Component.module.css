@@ -1,0 +1,19 @@
+.avatarContainer {
+  /* padding-top: 1.7rem; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.avatarImg {
+  border: 2px solid transparent;
+  transition: border 0.1s ease;
+}
+
+.avatarImg img {
+  width: 50px;
+}
+
+.avatarSelected {
+  border: 2px solid #19110b;
+}

@@ -1,0 +1,52 @@
+/* Sedes.module.css */
+
+/* Estilos para dispositivos con ancho menor o igual a 1000px */
+@media (max-width: 1000px) {
+  .gridcontainer {
+    grid-template-columns: 1fr !important;
+  }
+  .mapa {
+    height: 20vh !important;
+    max-width: 40vh !important;
+  }
+  .typingeffect {
+    display: none !important;
+  }
+
+  .probando {
+    display: none !important;
+  }
+}
+/* Estilos para dispositivos con ancho menor o igual a 500px */
+@media (max-width: 500px) {
+  .gridcontainer {
+    grid-template-columns: 1fr !important;
+  }
+  .map {
+    margin: 3px !important;
+    width: fit-content;
+  }
+  .mapa {
+    height: 20vh !important;
+    max-width: 75vw !important;
+    margin: auto !important;
+  }
+  .sala {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    margin: 0 !important;
+    margin-left: 40px !important;
+    padding: 10px !important;
+  }
+  .saladillo2 {
+    display: none !important;
+  }
+  .famap {
+    display: none !important;
+  }
+  .typingeffect {
+    display: none !important;
+  }
+}

@@ -1,0 +1,16 @@
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal {
+    transform: translate(0%, 0%) !important;
+    left: 0px !important;
+    width: 100% !important;
+    z-index: 1000 !important;
+  }
+}

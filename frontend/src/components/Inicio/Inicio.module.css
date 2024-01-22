@@ -1,0 +1,43 @@
+/* Inicio.module.css */
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .tittleGim h1 {
+    flex-direction: column;
+    font-size: 40px !important;
+    text-align: center !important;
+    margin-left: 10px !important;
+  }
+  .subtitulo {
+    font-size: 40px !important;
+    margin-left: 10px !important;
+  }
+  .direccion {
+    font-size: 20px !important;
+  }
+  .button {
+    padding: 10px !important;
+    margin: 30px !important;
+    font-size: 15px;
+  }
+  .text6xl {
+    text-align: center;
+  }
+
+  .flexgap {
+    flex-direction: column;
+    align-items: center;
+    gap: 0 !important;
+    padding: auto !important;
+    margin: auto !important;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .p10 {
+    padding: 2px !important;
+    max-height: 500px;
+  }
+}

@@ -1,0 +1,11 @@
+/* PercentageCircle.css */
+
+.percentage-circle-container {
+  width: 100px;
+  margin: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.percentage-circle-container:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,44 @@
+Exercises:
+create
+update
+
+Groups:
+create
+update
+
+Rotuine:
+create
+update
+
+AM USUARIOS ---> Done
+AM RUTINAS
+AM EJERCICIOS ---> Done
+AM GRUPOS
+
+
+
+Revisiones:
+"Ejercicios" pestaña de user, si no tiene nada se rompe (Fixed)
+"Duracion" input de agregar rutina, pones un numero y agrega de a 1 las semanas. (Fixed)
+"Calendar" por defecto pone una fecha cualquiera (Creo que agrega infinitamente fechas). (Fixed)
+"Editar rutina" si no existe, rompe. (Fixed)
+View profile no existe (Fixed)
+    --> Ahora existe, pero rompe si el usuario no es cliente (o sea es coach)
+Scroll a veces no funciona. Esto pasa al loguearse que el scroll queda fijado en la misma posicion que la landing por eso despues rompe.
+Cuando tengo 2 clientes y navego de uno al otro, los ejercicios no se vuelven a querear y me muestra los del cliente anterior.
+El desplegable del user rompe todo. (Fixed)
+IMPORTANTE! El drag n drop no te deja reordenar dentro del dia los ejercicios.
+    --> MAS IMPORTANTE, EN LA DB SE TIENEN QUE GUARDAR ORDENADOS TMB!!!!
+Ahora al loguear, a veces hace falta apretar F5 para que comience a funcionar. (Fixed)
+Pendiente: Cambios en el groupSlice con el token.
+    En realidad, todos los slices no estan enviando el token.
+Pendiente: Editar profile tire success o error.
+Pendinte: Agregar avatar al editar perfil.
+Pendiente: El clearMessage debe estar en exerciseSlice tmb.
+Organizar finalmente todas las malditas variables que tienen 20 formas de llamarse (idGroup, idGroup, etc.)
+
+
+Roadmap:
+Hacer que los estados se guarden en el store (Done, testear bien igual)
+Que no redireccione cada vez que refresco la pagina (Done, testear bien igual)
+Que mantenga el nombre en el header (Done, testear bien igual)

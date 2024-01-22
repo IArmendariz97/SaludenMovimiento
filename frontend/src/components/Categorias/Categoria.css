@@ -1,0 +1,16 @@
+@media (max-width: 1000px) {
+  .descripcion {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-container {
+    grid-template-columns: 1fr;
+  }
+  .img-container img {
+    width: 400px;
+    height: 150px;
+    overflow: hidden;
+  }
+}

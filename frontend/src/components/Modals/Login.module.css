@@ -1,0 +1,287 @@
+.article {
+  position: fixed;
+  top: 0;
+  width: 80%;
+  height: 100vh;
+  z-index: 2000;
+  background-color: rgb(0, 0, 0, 0.13);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  transition: right 0.7s ease;
+  transition-timing-function: 0.7s ease-in;
+}
+
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  height: 100vh;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.777);
+}
+
+.container {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+  position: relative;
+}
+
+.login {
+  width: 100%;
+  padding: 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.close i {
+  color: #1f1f1f;
+  font-size: 19px;
+}
+
+.login h6 {
+  margin-top: 1rem;
+  color: #1f1f1f;
+  font-family: LVRegular;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+.loginOptions {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginInput {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginInput span {
+  color: #1f1f1f;
+  font-family: LVRegular;
+  font-size: 13px;
+}
+
+.loginInput input {
+  width: 100%;
+  border: 1px solid #eeeded;
+  border-radius: 0.1rem;
+  padding: 0.4rem 1rem;
+}
+
+.loginInput input:focus {
+  outline: none;
+  border: 1px solid #e4e4e4;
+}
+
+.forgotPassword {
+  margin-top: 0.4rem;
+  color: #1f1f1f;
+  font-family: LVRegular;
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  width: fit-content;
+}
+
+.forgotPassword:hover {
+  color: #1f1f1fa6;
+}
+
+.loginButton {
+  border: none;
+  margin-top: 2rem;
+  padding: 0.4rem 1rem;
+  background-color: black;
+  color: white;
+  font-family: LVRegular;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.loginButton:hover {
+  opacity: 0.9;
+}
+
+.or {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.or span:first-child,
+.or span:last-child {
+  height: 0.5px;
+  background-color: #1f1f1f4d;
+  flex-grow: 1;
+}
+
+.or .orSpan {
+  color: #1f1f1f;
+  font-family: LVRegular;
+  font-size: 13px;
+  padding: 0rem 1rem;
+}
+
+/* GOOGLE LOGIN */
+
+.loginButtons {
+  margin-top: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.googleLogin {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.5rem 0.5rem;
+  background-color: rgb(90, 88, 88);
+  border: none;
+  gap: 24px;
+  font-family: LVRegular;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: all 0.4s ease;
+}
+
+.googleLogin:hover {
+  opacity: 0.9;
+}
+
+.githubLogin {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.5rem 0.5rem;
+  background-color: #1f1f1f;
+  color: white;
+  border: none;
+  gap: 24px;
+  font-family: LVRegular;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: all 0.4s ease;
+}
+
+.githubLogin:hover {
+  opacity: 0.9;
+}
+
+.fbLogin {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.5rem 0.5rem;
+  background-color: #0166e1c1;
+  border: none;
+  gap: 24px;
+  font-family: LVRegular;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: all 0.4s ease;
+}
+
+.fbLogin span {
+  color: white;
+}
+
+.fbLogin:hover {
+  opacity: 0.9;
+}
+
+/* REGISTER */
+
+.register {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 0;
+}
+
+.register h6 {
+  color: #1f1f1f;
+  font-family: LVRegular;
+  letter-spacing: 1px;
+}
+
+.register .benefits {
+  margin-top: 0.7rem;
+  font-size: 13px;
+  color: #1f1f1f;
+  font-family: LVRegular;
+}
+
+.createAccount {
+  position: relative;
+  margin-top: 1rem;
+  border: none;
+  width: 100%;
+  padding: 0.4rem 1rem;
+  font-family: LVRegular;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #1f1f1f;
+  background-color: transparent;
+  border: 1px solid #1f1f1f;
+  z-index: 2;
+}
+
+.createAccount::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: bottom center;
+  background: #1f1f1f;
+  transition: transform 0.3s;
+  z-index: -1;
+}
+
+.createAccount:hover {
+  color: white;
+}
+
+.createAccount:hover::after {
+  transform: scaleY(1);
+}
